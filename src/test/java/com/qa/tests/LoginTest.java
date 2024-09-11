@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest {
 	
-	@Test
+	@Test(priority =1)
 	public void logintest() {
 		System.out.println("Login Test");
 	}
